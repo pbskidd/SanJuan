@@ -1,0 +1,41 @@
+#container{
+    margin: 10px;
+    margin-top: 5px;
+font-family: 'Berkshire Swash';
+  font-size: 30px;
+      color: rgba(10,60,150, 0.8);
+      color: rgb(153, 153, 51, 0.8);
+  text-shadow: 1px 2px 4px #999066, 0 0 0 #999066, 1px 3px 4px #def;  
+  padding: 10px;	
+background: black url(table-bg.jpg) repeat center top;
+  padding: 10px;
+
+}
+
+a{
+  color:#990000;
+}
+body{
+	background-color:black;
+	margin: 0;
+	-moz-transition: all 1s ease;-webkit-transition: all 1s ease;-o-transition: all 1s ease;transition: all 1s ease;
+}
+#wheel{
+	width: 45px;
+	margin-top: 10px;
+}
+
+#map{
+	display:none;
+}
+#link{
+	padding-left: 40px;
+	padding-bottom: 40px;
+	display:none;
+}
+
+.rotate {-moz-transform: rotate(15deg);
+         -webkit-transform:rotate(15deg); 
+         -ms-transform:rotate(15deg);
+         -o-transform:rotate(15deg);
+         }
